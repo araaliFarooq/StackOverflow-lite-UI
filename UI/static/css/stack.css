@@ -30,9 +30,10 @@ a:hover{
 /*    ----    layout css for signup page  ----  */
 .container{
     background-image: url(../images/bg.jpg);
-    /*background-image: url("images/marks.png");
+    background-attachment: fixed;
+    background-position: center;
     background-repeat: no-repeat;
-    background-position: fixed;*/
+    background-size: cover;
 }
 .centercont{
     width:47%;
