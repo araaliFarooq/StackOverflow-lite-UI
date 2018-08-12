@@ -1,0 +1,88 @@
+.answer_card {
+    padding: 12px 20px;
+    margin: 10px;
+    width:100%;
+}
+.answer-data {
+    padding-bottom: 5px;
+    font-weight: bold;
+    font-size: 27px;
+    margin-bottom: 0;
+}
+.answer-content {
+    color: #000;
+    font-size: 14px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #e3e3e3;
+}
+.answer-foot {
+    padding-bottom: 5px;
+    margin-bottom: 0;
+}
+.vote{
+    color: #202020;
+    font-size: 17px;
+    float:left;
+    padding: 12px;
+    outline: none;
+    box-sizing: border-box;
+    width:150px;
+}
+.comment{
+    color: #fff;
+    font-size: 15px;
+    float:right;
+    padding: 10px;
+    outline: none;
+    box-sizing: border-box;
+    width:120px;
+    border: none;
+    background: #7f2aff;
+}
+.ansd {
+    padding: 12px 20px;
+    margin: 10px;
+    width:100%;
+}
+
+.former{
+    width: 60%;
+    margin: 47px auto;
+}
+.former .input-box {
+    margin: 20px 0;
+}
+.former .input-box input, .former .input-box textarea {
+    width: 100%;
+    font-size: 17px;
+    padding: 12px;
+    color: #777;
+    border: 1px solid #ccc;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.former .input-box textarea {
+    height: 200px;
+}
+.former .input-box input:focus,
+.former .input-box input:valid {
+    border-bottom: 0.5px solid #7f2aff;
+    transition: 0.5s;
+}
+.former .input-box textarea:focus,
+.former .input-box textarea:valid {
+    border-bottom: 0.5px solid #7f2aff;
+}
+.former .input-box input[type="submit"] {
+    border: none;
+    background: #7f2aff;
+    border-radius:25px;
+    color: #fff;
+    font-weight: bold;
+}
+.former .input-box input[type="submit"]:hover {
+    background: #1d1d1d;
+    transition: 0.5s;
+}
