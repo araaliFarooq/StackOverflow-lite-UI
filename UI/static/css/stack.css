@@ -10,11 +10,17 @@ html, body{
     font-family:myfont, "Helvetica Neue", Helvetica, Arial, sans-serif;
     
 }
+
+.forquests .a{
+    color: #bd99f5;
+}
+
 a{
     text-decoration:none;
     color:#7f2aff;
     font-weight: bold;
 }
+
 a:hover{
     color:#202020;
     transition: 0.5s;
@@ -342,6 +348,7 @@ ul li a:hover{
     float: right;
     margin-top:-35px;
     width: 45%;
+    
 }
 .profile_name{
     font-size: 50px;
@@ -349,7 +356,7 @@ ul li a:hover{
 }
 .cont_name{
     font-size: 35px;
-    color: #1d1d1d;
+    color: #fff;
 }
 .entries{
     font-size:20px;
@@ -370,6 +377,8 @@ ul li a:hover{
     font-size: 13px;
     margin-left: 27px;
 }
+
+
 
 
 /* ---- footer layout ----   */
