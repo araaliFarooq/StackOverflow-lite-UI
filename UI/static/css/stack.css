@@ -3,10 +3,12 @@
     src: url(ff-clan-web-pro-thin.woff);
 }
 html, body{
+   
     margin:0;
     padding:0;
     font-weight: bold;
     font-family:myfont, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    
 }
 a{
     text-decoration:none;
@@ -21,7 +23,7 @@ a:hover{
 
 /*    ----    layout css for signup page  ----  */
 .container{
-    background-color: #7f2aff;
+    background-image: url(../images/bg.jpg);
     /*background-image: url("images/marks.png");
     background-repeat: no-repeat;
     background-position: fixed;*/
@@ -32,7 +34,7 @@ a:hover{
     padding-top: 30px;
     text-align: center;
     height:100vh;
-    background:#fff;
+    background:#fbf9f966;
     overflow: hidden;
     box-shadow: 0 7px 50px rgba(0,0,0,.3);
 }
@@ -84,7 +86,7 @@ a:hover{
 
 /*    ----   layout css for login page  ----   */
 #contain{
-    background: #fff;
+    background-image: url(../images/bg.jpg);
     overflow: hidden;
 }
 .login_box{
