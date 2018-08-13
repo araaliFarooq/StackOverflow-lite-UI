@@ -95,8 +95,8 @@ a:hover{
     text-align: center;
 }
 .reminder p{
-    color: #1d1d1d;
-    font-size: 17px;
+    color: #fff;
+    font-size: 19px;
 }
 
 
@@ -105,12 +105,17 @@ a:hover{
     margin:0;
     padding:0;
     overflow: hidden;
+    background-image:url(../images/bg.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
 /*    ----   layout css for the header  ----   */
 .head{
-    background-color:white;
+    background-color:#fbf9f9b3;
     box-shadow: 0 0 20px rgba(0,0,0,.3);
     padding:0;
     margin:0;
@@ -124,6 +129,14 @@ a:hover{
     margin:0 auto;
     padding:0;
 }
+#nav_header{
+  position: fixed;
+  top: 0;
+  display: block;
+  transition: top 0.3s;
+
+}
+
 .logo{
     float:left;
     margin-top: 18px;
@@ -250,14 +263,16 @@ ul li a:hover{
 
 /* ---- layout css for the ask question page ----   */
 .contain{
-    background: #fff;
+    background:url(../images/bg.jpg);
+    background-attachment: fixed;
+    background-position: center;
     background-repeat: no-repeat;
-    background-position: fixed;
-    overflow: hidden;
+    background-size: cover;
 }
 .quest_box{
     margin: 120px auto;
     text-align: center;
+    /*background:#fbf9f966;*/
 }
 #reminder {
     margin-top: 100px;
@@ -357,8 +372,10 @@ ul li a:hover{
 
 /* ---- footer layout ----   */
 footer{
+    
     float: none;
     clear: both;
     text-align: center;
     padding-top:27px;
+    background:#fbf9f966;
 }
