@@ -1,2 +1,10 @@
 # StackOverflow-lite-UI
-An app to enable users get answers to different questions
+The StackOverflowLite is an application which enables users to post questions on various topics so as to get answers and also enble them post answers to different user questions:
+
+The users are able to do the following :
+Create an account. 
+Login into the system.
+View all recently asked questions by different users.
+Respond to questions or to any question 
+post questions of their own
+View user questions and answers on various topics. 
