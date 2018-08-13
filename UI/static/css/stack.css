@@ -176,9 +176,11 @@ ul li a:hover{
 
 /* ---- question card layout ----   */
 .containa{
-    background-color: #fff;
+    background: url(../images/bg.jpg);
+    background-attachment: fixed;
+    background-position: center;
     background-repeat: no-repeat;
-    background-position: fixed;
+    background-size: cover;
     overflow: hidden;
 }
 .question{
