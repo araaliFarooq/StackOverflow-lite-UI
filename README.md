@@ -8,3 +8,5 @@ View all recently asked questions by different users.
 Respond to questions or to any question 
 post questions of their own
 View user questions and answers on various topics. 
+
+To view a demo. follow https://araalifarooq.github.io/StackOverflow-lite-UI/UI/register.html
