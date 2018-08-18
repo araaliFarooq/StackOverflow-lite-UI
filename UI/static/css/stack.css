@@ -391,3 +391,22 @@ footer{
     padding-top:27px;
     background:#fbf9f966;
 }
+
+/*----start-responsive design-----*/
+@media (max-width:1024px){
+    .container {
+        margin: 0 0 0 3.6%;
+    }
+    .span_1_of_2 {
+        width: 47.7%;
+    }
+    .span_1_of_f {
+        width: 50%;
+    }
+    i.fb, i.tw {
+        margin-right: 1em;
+    }
+    .main {
+        width: 50%;
+    }
+    }
