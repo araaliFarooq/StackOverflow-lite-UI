@@ -50,7 +50,7 @@
                             <div class="vote">
                                 <input type="image" src="static/images/up.png" name="up" class="btTxt submit" id="up" />
                                 <input type="image" src="static/images/down.png" name="down" class="btTxt submit" id="down" />
-                                <votes id="votes">2</votes>
+                                <votes id="votes">5</votes>
                             </div>
                             <div id="comment">
                                 Posted by: <em>Farooq A, <small>August 11th 2018</small></em>
@@ -71,12 +71,13 @@
                         </div>
                     </div>
                     <br/>
+                  
                     <div class="ansd">
                         <p class="answer-content">It is not easy for a guy to just take you out, Are we serious, do you see something there or not, anyway lets not think of it alot. I can't change the direction of the wind, but I can adjust my sails to always reach my destination. Read more quotes for you</p>
                         <div class="answer-foot">
                             <div class="vote">
-                                <input type="image" src="static/images/up.png" name="up" class="btTxt submit" id="up" />
-                                <input type="image" src="static/images/down.png" name="down" class="btTxt submit" id="down" />
+                                <input type="image" src="static/images/up.png" name="up" class="add_submit" id="up" />
+                                <input type="image" src="static/images/down.png" name="down" class="sub_submit" id="down" />
                                 <votes id="votes">4</votes>
                             </div>
                             <div id="comment">
@@ -97,6 +98,7 @@
 
                         </div>
                     </div>
+                
 
                     <script type="text/javascript" src="static/js/toggle.js"></script>
 
@@ -127,5 +129,30 @@
         </footer>
 
     </main>
+    <script type="text/javascript">
+        $(".add_submit").click(function(){
+            var self = $(this); 
+            v = $(this).parents("ansvotes").find(".votes").val()
+            
+            if((parseInt(v)) < 10000){
+            $(this).parents("ansvotes").find(".votes").val(parseInt(v)+1).css({'color':'orange'});
+            self.css({'color':'orange'});
+            }else{
+                alert("You can't go beyond the 10000 mark!");
+            }
+        })
+
+        $(".sub_submit").click(function(){
+            var self = $(this);
+            v = $(this).parents("ansvotes").find(".votes").val()
+            
+            if((parseInt(v)) > -10000){
+            $(this).parents("ansvotes").find(".votes").val(parseInt(v)-1).css({'color':'red'});
+            self.css({'color':'red'});
+            }else{
+                alert("You can't go below the -10000 mark!");
+            }
+        })
+    </script>
 </body>
 </html>
